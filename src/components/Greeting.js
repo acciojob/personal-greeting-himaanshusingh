@@ -5,7 +5,7 @@ const Greeting = () => {
 
   function handleInput(evt) {
     let name = evt.target.value.trim();
-    if (name != " ") setGreet(name);
+    if (name) setGreet(name);
   }
 
   return (
