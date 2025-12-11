@@ -12,7 +12,7 @@ const Greeting = () => {
     <>
       <label htmlFor="input">Enter your Name: </label>
       <input type="text" id="input" onChange={handleInput}></input>
-      {greet && <p>{`Hello, ${greet}`}</p>}
+      {greet && <p>{`Hello, ${greet}!`}</p>}
     </>
   );
 };
